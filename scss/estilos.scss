@@ -1,10 +1,12 @@
-@import "variables";
-@import "globales";
+@import "./base/resets";
+@import "./base/colores";
+@import "./base/fuentes";
+@import "./base/mixins";
+@import "./componentes/header";
+@import "./componentes/footer";
 @import "inicio";
 @import "autores";
 @import "libros";
 @import "personajes";
 @import "resumenes";
 @import "wishlist";
-@import "./componentes/header";
-@import "./componentes/footer";
