@@ -4,7 +4,228 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La biblioteca de Caballito</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/estilos.css" />
     <title>Paper Shards</title>
   </head>
-  <body></body>
+  <body>
+    <!-- header con logo y barra de navegación -->
+
+    <header>
+      <section>
+        <nav class="navbar navbar-expand-lg navbar-light header__logo">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+              ><img src="img/logo.png" alt="Logo Paper Shards"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse justify-content-end"
+              id="navbarNavAltMarkup"
+            >
+              <div class="navbar-nav my-4 navigation__list">
+                <a class="navigation__item" href="./html/autores.html"
+                  >Autores</a
+                >
+                <a class="navigation__item" href="./html/libros.html">Libros</a>
+                <a class="navigation__item" href="./html/resumenes.html"
+                  >Resumenes</a
+                >
+                <a class="navigation__item" href="./html/personajes.html"
+                  >Personajes</a
+                >
+                <a class="navigation__item" href="./html/wishlist.html"
+                  >Lista de deseos</a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <!-- Sección hero con mensaje y call to action -->
+      <section class="hero">
+        <div class="hero__image"></div>
+        <div>
+          <h2 class="hero__h2">
+            El libro más importante<br />que alguien puede leer<br />es el
+            siguiente
+          </h2>
+          <a class="hero__button" href="cursos.html">Ver libros</a>
+        </div>
+      </section>
+
+      <!-- Sección features -->
+      <section class="features">
+        <h3 class="features__title">Usando las esquirlas de papel</h3>
+        <div class="container mt-5">
+          <div class="row g-5 justify-content-center">
+            <!-- Feature 01 -->
+            <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+              <div class="my-5">
+                <div class="icon--mode"></div>
+                <h5 class="table__text--title">Autores favoritos</h5>
+                <p class="table__text">
+                  Quienes son y que se tienen entre manos actualmente.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature 02 -->
+            <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+              <div class="my-5">
+                <div class="icon--teachers"></div>
+                <h5 class="table__text--title">Libros favoritos</h5>
+                <p class="table__text">
+                  Una lista organizada de esos libros que te emocionan.
+                </p>
+              </div>
+            </div>
+
+            <!-- Feature 03 -->
+            <div class="col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+              <div class="my-5">
+                <div class="icon--payment"></div>
+                <h5 class="table__text--title">Resumenes</h5>
+                <p class="table__text">
+                  No te olvides ningún detalle. Nunca más.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="features__button mt-5" href="servicios.html">Conocer más</a>
+      </section>
+
+      <!-- Sección testimonials -->
+
+      <section class="testimonials">
+        <h3 class="testimonials__title">Testimonios</h3>
+        <div class="container mt-5">
+          <div class="row g-5">
+            <!-- Testimonio 01 -->
+            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+              <div class="card__item">
+                <div class="item__rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="quote"><i class="fas fa-quote-left fa-4x"></i></div>
+                <blockquote class="blockquote fs-3">
+                  Me comí mi camita y tuve que dormir en el piso. Espero que el
+                  curso me ayude a mejorar.
+                </blockquote>
+                <figcaption class="blockquote-footer fs-4 text-end my-2">
+                  <em>Golden Retriever anónimo</em>
+                </figcaption>
+              </div>
+            </div>
+
+            <!-- Testimonio 02 -->
+            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+              <div class="card__item">
+                <div class="item__rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+                <blockquote class="blockquote fs-3">
+                  Mi humano hace todos los trucos. Recomiendo 100% el curso de
+                  manipulación básica!
+                </blockquote>
+                <figcaption class="blockquote-footer fs-4 text-end my-2">
+                  <em>Mojito</em>
+                </figcaption>
+              </div>
+            </div>
+
+            <!-- Testimonio 03 -->
+            <div class="col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+              <div class="card__item">
+                <div class="item__rate">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+                <blockquote class="blockquote fs-3">
+                  Con ezte curso mejoré todas miz cualidadez!! Amo a miz
+                  humanoz!!
+                </blockquote>
+                <figcaption class="blockquote-footer fs-4 text-end my-2">
+                  <em>Chopper</em>
+                </figcaption>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer con legales y redes sociales -->
+
+    <footer>
+      <p>Creado por Yael Taito - Coderhouse</p>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="img/icon_footer_instagram.svg" alt="Icono de Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com" target="_blank"
+            ><img src="img/icon_footer_facebook.svg" alt="Icono de Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank"
+            ><img src="img/icon_footer_twitter.svg" alt="Icono de Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://youtube.com" target="_blank"
+            ><img src="img/icon_footer_youtube.svg" alt="Icono de Youtube"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  </body>
 </html>
