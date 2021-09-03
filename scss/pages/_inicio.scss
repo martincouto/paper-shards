@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   height: 85vh;
-  background-image: url(../img/hero_01.png);
   background-repeat: no-repeat;
   background-position: center;
   animation-name: animatedBackground;
@@ -19,14 +18,19 @@
 }
 
 .hero__h2 {
-  @include font-sizes(4.5rem, bold);
+  @include font-sizes(3.5rem, bold);
   font-family: $font-family-primary;
-  animation-name: moveInLeft;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: backwards;
+  position: absolute;
+  // animation-name: moveInLeft;
+  // animation-duration: 2s;
+  // animation-timing-function: ease-out;
+  // animation-fill-mode: backwards;
 }
-
+.hero__h4 {
+  @include font-sizes(1rem, bold);
+  font-family: $font-family-primary;
+  position: absolute;
+}
 .hero__button:link,
 .hero__button:visited {
   text-decoration: none;
@@ -40,11 +44,7 @@
   border: none;
   border-radius: 20px;
   color: $color-white;
-  transition: all 0.2s;
-  animation-name: moveInLeft;
-  animation-duration: 2s;
-  animation-timing-function: ease-out;
-  animation-fill-mode: backwards;
+  position: absolute;
 }
 
 .hero__button:hover,
