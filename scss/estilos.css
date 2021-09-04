@@ -31,6 +31,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -73,8 +74,8 @@ header {
 
 .navigation__item:hover,
 .navigation__item:active {
-  border-color: #d52735;
-  color: #d52735;
+  border-color: #f94fff;
+  color: #f94fff;
 }
 
 /* Estilos del footer */
@@ -158,7 +159,7 @@ footer ul li a img:active {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 85vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-animation-name: animatedBackground;
@@ -213,60 +214,6 @@ footer ul li a img:active {
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-@-webkit-keyframes moveInLeft {
-  0% {
-    -webkit-transform: translateX(-10rem);
-            transform: translateX(-10rem);
-  }
-  50% {
-    -webkit-transform: translateX(3rem);
-            transform: translateX(3rem);
-  }
-  100% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-}
-
-@keyframes moveInLeft {
-  0% {
-    -webkit-transform: translateX(-10rem);
-            transform: translateX(-10rem);
-  }
-  50% {
-    -webkit-transform: translateX(3rem);
-            transform: translateX(3rem);
-  }
-  100% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
-  }
-}
-
-@-webkit-keyframes animatedBackground {
-  0% {
-    background-position-x: 100%;
-  }
-  50% {
-    background-position-x: 35%;
-  }
-  100% {
-    background-position-x: 50%;
-  }
-}
-
-@keyframes animatedBackground {
-  0% {
-    background-position-x: 100%;
-  }
-  50% {
-    background-position-x: 35%;
-  }
-  100% {
-    background-position-x: 50%;
-  }
-}
-
 /* Estilos correspondientes a sección features */
 .features {
   padding: 60px 15%;
@@ -291,24 +238,6 @@ footer ul li a img:active {
 
 .features__table {
   margin: 40px auto;
-}
-
-.icon--mode {
-  background-image: url("../img/icon_features_01.svg");
-  background-repeat: no-repeat;
-  height: 70px;
-}
-
-.icon--teachers {
-  background-image: url("../img/icon_features_02.svg");
-  background-repeat: no-repeat;
-  height: 70px;
-}
-
-.icon--payment {
-  background-image: url("../img/icon_features_03.svg");
-  background-repeat: no-repeat;
-  height: 70px;
 }
 
 .table__text, .table__text--title {
@@ -349,48 +278,5 @@ footer ul li a img:active {
 .features__button:active {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-/* Estilos correspondientes a sección testimonials */
-.testimonials {
-  padding: 60px 15% 100px 15%;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f7f7f7), to(#d3d3d3));
-  background: linear-gradient(to bottom, #f7f7f7 50%, #d3d3d3);
-}
-
-.quote {
-  color: rgba(0, 0, 0, 0.1);
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.testimonials__title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.2rem;
-  text-align: center;
-  color: #404f60;
-}
-
-.card__item {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 24px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.4rem;
-  color: #404f60;
-}
-
-.blockquote {
-  min-height: 100px;
-}
-
-.item__rate {
-  margin-bottom: 2rem;
-  color: #ffa500;
-}
-
-.item__title {
-  font-size: 1.8rem;
-  padding: 16px 0;
 }
 /*# sourceMappingURL=estilos.css.map */

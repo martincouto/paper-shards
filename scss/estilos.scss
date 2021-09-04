@@ -4,9 +4,9 @@
 @import "./base/mixins";
 @import "./componentes/header";
 @import "./componentes/footer";
-@import "inicio";
-@import "autores";
-@import "libros";
-@import "personajes";
-@import "resumenes";
-@import "wishlist";
+@import "./pages/inicio";
+@import "./pages/autores";
+@import "./pages/libros";
+@import "./pages/personajes";
+@import "./pages/resumenes";
+@import "./pages/wishlist";

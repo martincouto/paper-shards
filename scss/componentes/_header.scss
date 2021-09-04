@@ -12,6 +12,7 @@ header {
 
 .header__logo {
   display: flex;
+  height: 100%;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -46,6 +47,6 @@ header {
 
 .navigation__item:hover,
 .navigation__item:active {
-  border-color: $color-red;
-  color: $color-red;
+  border-color: $color-purple;
+  color: $color-purple;
 }
