@@ -228,79 +228,64 @@ footer ul li a img:active {
   font-weight: 700;
 }
 
-.features__button:link,
-.features__button:visited {
-  text-decoration: none;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 8px 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+/*Estilo de Autores*/
+
+.mainAutores .dosColumnas {
   display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
-  color: #ffffff;
-  border: none;
-  border-radius: 20px;
-  background-color: #2680eb;
 }
 
-.features__button:hover,
-.features__button:active {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+.mainAutores .dosColumnas img {
+  width: 100%;
+  max-width: 300px;
 }
 
-/* Estilos correspondientes a sección testimonials */
-.testimonials {
-  padding: 60px 15% 100px 15%;
-  background: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(50%, #f7f7f7),
-    to(#d3d3d3)
-  );
-  background: linear-gradient(to bottom, #f7f7f7 50%, #d3d3d3);
-}
-
-.quote {
-  color: rgba(0, 0, 0, 0.1);
+.centrado {
   text-align: center;
-  margin-bottom: 30px;
 }
 
-.testimonials__title {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.2rem;
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 2.5rem;
   text-align: center;
-  color: #404f60;
 }
 
-.card__item {
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 24px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.4rem;
-  color: #404f60;
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
-.blockquote {
-  min-height: 100px;
+.columnaOchenta {
+  width: 80%;
+  margin: auto;
+  max-width: 1600px;
 }
 
-.item__rate {
-  margin-bottom: 2rem;
-  color: #ffa500;
+.columnas {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 2.5rem;
 }
 
-.item__title {
-  font-size: 1.8rem;
-  padding: 16px 0;
+.dosColumnas {
+  text-align: center;
 }
-/*# sourceMappingURL=estilos.css.map */
+
+.dosColumnas img {
+  margin-bottom: 1rem;
+}
+
+.sectionMain {
+  display: inline-block;
+  width: 100%;
+  padding-top: 30px;
+}
+
+.seccion {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}

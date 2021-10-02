@@ -1,0 +1,65 @@
+/*Estilo de Autores*/
+
+.mainAutores .dosColumnas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.mainAutores .dosColumnas img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.centrado {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.columnaOchenta {
+  width: 80%;
+  margin: auto;
+  max-width: 1600px;
+}
+
+.columnas {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 2.5rem;
+}
+
+.dosColumnas {
+  text-align: center;
+}
+
+.dosColumnas img {
+  margin-bottom: 1rem;
+}
+
+.autores__h1 {
+  @include font-sizes(4.5rem, bold);
+  font-family: $font-family-primary;
+
+  .autores__h2 {
+    @include font-sizes(3.5rem, bold);
+    font-family: $font-family-primary;
+    position: absolute;
+  }
+  .autores__h4 {
+    @include font-sizes(1rem, bold);
+    font-family: $font-family-primary;
+    position: absolute;
+  }
