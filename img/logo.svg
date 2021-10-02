@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109.218" height="44" viewBox="0 0 109.218 44">
+  <g id="Logo" transform="translate(17.218 207)">
+    <text id="label" transform="translate(3 -188)" fill="#758af5" font-size="20" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">PAPER</tspan><tspan x="0" y="20">SHARDS</tspan></text>
+    <g id="img" transform="matrix(0.966, 0.259, -0.259, 0.966, -34.949, -1.142)">
+      <g id="Grupo_1" data-name="Grupo 1" transform="translate(-26.772 -194.685)">
+        <path id="Trazado_3" data-name="Trazado 3" d="M-32.772-183.52v-15.706H-23.7v15.706l-4.633-3.161Z" transform="translate(32.772 199.241)" fill="#707070"/>
+        <path id="Intersección_1" data-name="Intersección 1" d="M0,0H1.8s.011,7.488-.073,14.475L0,15.706Z" transform="translate(0 0)" fill="#b8b8b8"/>
+      </g>
+      <g id="Grupo_2" data-name="Grupo 2" transform="translate(-26.659 -180.057)">
+        <path id="Trazado_5" data-name="Trazado 5" d="M-26.772-164.44c.028-.053,4.509-3.312,4.509-3.312l4.319,3.312v8.647S-26.44-154.135-26.772-164.44Z" transform="translate(26.772 167.752)" fill="#707070"/>
+        <path id="Intersección_2" data-name="Intersección 2" d="M0,1.285V1.268C.027,1.235.8.661,1.707,0V.049C1.552,9.928,8.817,8.41,8.817,8.41V9.917a7.489,7.489,0,0,1-1.259.1C5.177,10.013.258,9.066,0,1.285Z" transform="translate(0.006 2.044)" fill="#b8b8b8"/>
+      </g>
+      <rect id="Rectángulo_1" data-name="Rectángulo 1" width="1.868" height="7.47" transform="translate(-23.179 -202)" fill="#707070"/>
+    </g>
+  </g>
+</svg>

@@ -31,7 +31,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -42,6 +41,11 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.navbar-brand img {
+  width: 100%;
+  height: 100%;
 }
 
 @media (max-width: 898px) {
@@ -74,17 +78,17 @@ header {
 
 .navigation__item:hover,
 .navigation__item:active {
-  border-color: #f94fff;
-  color: #f94fff;
+  border-color: #9720b9;
+  color: #9720b9;
 }
 
 /* Estilos del footer */
 footer {
   padding: 0 15%;
   bottom: 0;
-  background-color: #2d2d2d;
+  background-color: #383838;
   color: #ffffff;
-  min-height: 80px;
+  min-height: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,7 +102,7 @@ footer {
 
 footer p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1rem;
   margin: 0;
   padding: 10px;
 }
@@ -121,6 +125,8 @@ footer ul li a img {
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  width: 32px;
+  height: 32px;
 }
 
 footer ul li a img:hover,
@@ -160,62 +166,33 @@ footer ul li a img:active {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-animation-name: animatedBackground;
-          animation-name: animatedBackground;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-  background-color: #d52735;
   color: #ffffff;
   padding: 0 15%;
   max-height: 760px;
 }
 
-.hero__h2 {
+.hero__h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  /* Estilos correspondientes a sección features */
+}
+
+.hero__h1 .hero__h2 {
   font-size: 3.5rem;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   position: absolute;
 }
 
-.hero__h4 {
+.hero__h1 .hero__h4 {
   font-size: 1rem;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
   position: absolute;
 }
 
-.hero__button:link,
-.hero__button:visited {
-  text-decoration: none;
-  display: inline-block;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 40px 0px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
-  padding: 8px 16px;
-  background-color: #2680eb;
-  border: none;
-  border-radius: 20px;
-  color: #ffffff;
-  position: absolute;
-}
-
-.hero__button:hover,
-.hero__button:active {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-}
-
-/* Estilos correspondientes a sección features */
-.features {
+.hero__h1 .features {
   padding: 60px 15%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,18 +206,18 @@ footer ul li a img:active {
           align-items: center;
 }
 
-.features__title {
+.hero__h1 .features__title {
   font-family: "Montserrat", sans-serif;
   font-size: 3.2rem;
   text-align: center;
   color: #404f60;
 }
 
-.features__table {
+.hero__h1 .features__table {
   margin: 40px auto;
 }
 
-.table__text, .table__text--title {
+.hero__h1 .table__text, .hero__h1 .table__text--title {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   color: #404f60;
@@ -248,35 +225,8 @@ footer ul li a img:active {
   margin: 10px 0;
 }
 
-.table__text--title {
+.hero__h1 .table__text--title {
   font-size: 2.4rem;
   font-weight: 700;
-}
-
-.features__button:link,
-.features__button:visited {
-  text-decoration: none;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 8px 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.6rem;
-  color: #ffffff;
-  border: none;
-  border-radius: 20px;
-  background-color: #2680eb;
-}
-
-.features__button:hover,
-.features__button:active {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 /*# sourceMappingURL=estilos.css.map */
