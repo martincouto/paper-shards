@@ -289,3 +289,22 @@ h2 {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+
+/* Estilos para personajes */
+
+.personajes {
+  min-height: calc(100vh - 100px);
+  padding: 150px 20%;
+  background-color: #ffb34f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.personajes__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4.2rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 25px;
+}

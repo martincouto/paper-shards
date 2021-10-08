@@ -1,0 +1,22 @@
+/* Estilos para personajes */
+
+.personajes {
+  min-height: calc(100vh - 100px);
+  padding: 150px 20%;
+  background-color: $color-yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.personajes__title {
+  font-family: $font-family-primary;
+  font-size: 4.2rem;
+  text-align: center;
+  color: $color-white;
+  padding: 25px;
+}
+
+.personajes__title--subtitle {
+  @include font-sizes(2.2rem, 400);
+}
